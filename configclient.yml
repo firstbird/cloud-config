@@ -1,6 +1,6 @@
 configuration:  
   projectName: reservation-service
 server:
-  port: 8888
+  port: 8000
 message:
   greeting: Hello from the configuration!
