@@ -1,6 +1,6 @@
 configuration:  
   projectName: eureka-service
 server:
-  port: 8000
+  port: 8761
 message:
   greeting: Hello from the eureka-service!
