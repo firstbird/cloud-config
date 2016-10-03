@@ -3,4 +3,4 @@ configuration:
 server:
   port: 8000
 message:
-  greeting: Hello from the fat!
+  greeting: Hello from the ddd!
