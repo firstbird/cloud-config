@@ -8,5 +8,4 @@ spring:
   cloud:
     stream:
         bindings:
-            output:
-                reservations
+            output: reservations
