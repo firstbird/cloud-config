@@ -5,11 +5,9 @@ server:
 message:
   greeting: Hello from the reservation-service!
 spring:
-    redis:
-        host: "localhost"
     cloud:
         stream:
-            default-binder: redis  
+            default-binder: rabbit  
             bindings:
                 input: 
                     destination: reservations
