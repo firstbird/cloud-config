@@ -8,4 +8,5 @@ spring:
     cloud:
         stream:
             default-binder: rabbit  
-
+        bindings:
+            output: reservations
