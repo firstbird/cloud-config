@@ -1,7 +1,7 @@
 configuration:  
   projectName: reservation-service
 server:
-  port: 8000
+  port: 8020
 message:
   greeting: Hello from the reservation-service!
 spring:
