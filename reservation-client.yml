@@ -1,0 +1,6 @@
+configuration:  
+  projectName: reservation-client
+server:
+  port: 8050
+message:
+  greeting: Hello from the reservation-client!
