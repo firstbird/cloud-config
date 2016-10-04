@@ -7,7 +7,7 @@ message:
 spring:
     cloud:
         stream:
-            default-binder: rabbit  
+            default-binder: redis  
             bindings:
                 input: 
                     destination: reservations
