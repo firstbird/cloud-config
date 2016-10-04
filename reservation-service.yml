@@ -9,4 +9,4 @@ spring:
         stream:
             default-binder: rabbit  
         bindings:
-            output: reservations
+            input: reservations
