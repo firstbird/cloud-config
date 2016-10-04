@@ -5,7 +5,9 @@ server:
 message:
   greeting: Hello from the reservation-client!
 spring:
-  cloud:
-    stream:
-        bindings:
-            output: reservations
+    cloud:
+        stream:
+            default-binder: rabbit  
+            bindings:
+                output: 
+                    destination: reservations
