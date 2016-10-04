@@ -3,4 +3,9 @@ configuration:
 server:
   port: 8000
 message:
-  greeting: Hello from the hhh!
+  greeting: Hello from the reservation-service!
+spring:
+    cloud:
+        stream:
+            default-binder:rabbit  
+

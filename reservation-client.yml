@@ -4,3 +4,9 @@ server:
   port: 8050
 message:
   greeting: Hello from the reservation-client!
+spring:
+  cloud:
+    stream:
+        bindings:
+            output:
+                reservations
