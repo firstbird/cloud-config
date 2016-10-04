@@ -5,9 +5,12 @@ server:
 message:
   greeting: Hello from the reservation-client!
 spring:
-    cloud:
-        stream:
-            default-binder: rabbit  
-            bindings:
-                output: 
-                    destination: reservations
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: reservations
+          consumer:
+            durableSubscription: true
+  rabbitmq:
+    addresses: amqp://localhost:5672
