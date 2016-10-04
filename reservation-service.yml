@@ -7,5 +7,5 @@ message:
 spring:
     cloud:
         stream:
-            default-binder:redis  
+            default-binder: redis  
 
