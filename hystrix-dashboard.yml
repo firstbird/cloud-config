@@ -1,0 +1,6 @@
+configuration:  
+  projectName: hystrix-dashboard
+server:
+  port: 8010
+message:
+  greeting: Hello from the hystrix-dashboard!
