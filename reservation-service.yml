@@ -13,6 +13,6 @@ spring:
           consumer:
             durableSubscription: true
   rabbitmq:
-    addresses: amqp://localhost:15672
+    addresses: amqp://localhost:5672
     username: mzl
     password: mzl@1989
