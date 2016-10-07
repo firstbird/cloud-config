@@ -14,5 +14,5 @@ spring:
             durableSubscription: true
   rabbitmq:
     addresses: amqp://192.168.99.100:5672
-    username: admin
-    password: admin
+    username: guest
+    password: guest
